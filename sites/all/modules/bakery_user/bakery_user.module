@@ -9,6 +9,6 @@ function bakery_user_menu() {
     return $items;
 }
 
-function bakery_user_login($edit, $account, $category) {
+function bakery_user_login() {
     $_GET['destination'] = 'welcome_new_user';
 }
