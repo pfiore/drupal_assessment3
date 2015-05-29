@@ -1,6 +1,6 @@
 <?php
 function bakery_user_menu() {
-    $items['welcome'] = array(
+    $items['welcome_new_user'] = array(
         'title' => 'Hi There!',
         'page callback' => 'welcome_new_user',
         'access callback' => TRUE,
